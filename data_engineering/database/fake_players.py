@@ -1,13 +1,19 @@
 from faker import Faker
 import random
 
-COUNTRIES = ['Argentina', 'Portugal', 'France', 'Brazil', 'England', 'Belgium', 'Italy', 'Spain', 'Germany',
-             'Ivory coast', 'Guinea', 'Senegal', 'Ghana', 'Nigeria', 'Cameroun', 'Egypt', 'Morocco', 'Algeria',
-             'USA', 'Croatia', 'Sweden', 'Columbia', 'Netherlands', 'Danemark', 'Ireland', 'Switzerland']
+COUNTRIES = ['Argentina', 'Portugal', 'France', 'Brazil',
+             'England', 'Belgium', 'Italy', 'Spain', 'Germany',
+             'Ivory coast', 'Guinea', 'Senegal', 'Ghana',
+             'Nigeria', 'Cameroun', 'Egypt', 'Morocco', 'Algeria',
+             'USA', 'Croatia', 'Sweden', 'Columbia', 'Netherlands',
+             'Danemark', 'Ireland', 'Switzerland']
 
-CLUBS = ['Barcelona', 'Real Madrid', 'Juventus', 'Liverpool', 'Ajax', 'Totenham', 'PSG', 'Lyon', 'Napoli',
-         'Olympique de Marseille', 'Valence FC', 'Manchester United', 'Manchester City', 'Chealsea', 'Athlético Madrid',
-         'Bayern de Munich', 'Dortmund', 'Arsenal', 'AC Milan', 'Roma', 'Inter', 'Monaco', 'Sevilla']
+CLUBS = ['Barcelona', 'Real Madrid', 'Juventus', 'Liverpool', 'Ajax',
+         'Totenham', 'PSG', 'Lyon', 'Napoli',
+         'Olympique de Marseille', 'Valence FC',
+         'Manchester United', 'Manchester City', 'Chealsea',
+         'Athlético Madrid','Bayern de Munich', 'Dortmund',
+         'Arsenal', 'AC Milan', 'Roma', 'Inter', 'Monaco', 'Sevilla']
 
 fake = Faker()
 

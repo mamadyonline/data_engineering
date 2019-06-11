@@ -14,7 +14,8 @@ POSTGRES_PASSWORD = 'docker'
 POSTGRES_HOST = 'localhost'
 POSTGRES_PORT = 5432
 db_name = 'postgres'
-DATABASE_URI = f'postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/'
+DATABASE_URI = f'postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}' \
+    f'@{POSTGRES_HOST}:{POSTGRES_PORT}/'
 
 # create the postgres database engine
 data_base = create_engine(f'{DATABASE_URI}{db_name}')

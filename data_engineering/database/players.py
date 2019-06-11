@@ -15,7 +15,8 @@ class Player(Base):
     total_personal_trophies = Column('total_personal_goals', Integer)
     active = Column('active', Boolean)
 
-    def __init__(self, name, nationality, club, total_scored_goals, total_personal_trophies, active):
+    def __init__(self, name, nationality, club,
+                 total_scored_goals, total_personal_trophies, active):
         """Initialize without the id component as it is taken care of automatically."""
         self.name = name
         self.nationality = nationality
